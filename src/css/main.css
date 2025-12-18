@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@font-face {
+    font-family: Es;
+    src: url(../fonts/Estedad-Medium.ttf);
+}
+@font-face {
+    font-family: Es1;
+    src: url(../fonts/Estedad-Regular.ttf);
+}
+@theme{
+    --font-Es:Es;
+    --font-Es1:Es1;
+}
